@@ -1,0 +1,26 @@
+.card {
+    width: 100%; 
+    max-width: 400px;
+    position: fixed;
+    background: #a0d9df;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #17747e;
+    border-width: 5px;
+    height: 400px;
+}
+
+.yes {
+    color: rgb(58, 126, 143);
+    background-color: white;
+}
+.reload {
+    border-radius: 10px;
+    border: none;
+    background-color: #456a71;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+.reload:hover {
+    background-color: #274a51;
+}
